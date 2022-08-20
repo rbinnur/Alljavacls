@@ -72,16 +72,57 @@ public class Stringtestcls {
 						   
 						   System.out.println("the negative no is:  " + bc);
 						   
-					   
-						   
+						 			   
 							   
 					   }
 				     
+				        
+					   //Split 
+					   // javalearning//ava,earning
+					   /*
+					    * Split method will return an arry of String.
+					    */
+					  // String x ="java learning class";
+					//String  sarry[] =  x.split(" ");//"java" , "learning" , "class"
+					
+					//for (int i=0;i<sarry.length;i++ ) {
+						// System.out.println("inside loop and printin an array :---> "+sarry[i]);
+						
+				//	}
 				     
-			
+					   String x = "this is testing java";
+					   String sarry[] = x.split(" ");
 					   
-				     
-				     
+					   for (int i=0;i<sarry.length;i++) {
+						   
+						   System.out.println ("printing:---> " +sarry[i]);
+						   
+					   }
+					   
+					   
+					   //task 
+					     
+						String w ="java ";
+						String y1="training";
+						int a1=2;
+						int b1=3;
+						
+						   System.out.println(w+y1);//java learning
+						
+						   System.out.println(a1+b1);//5
+						   System.out.println(w+y+a1+b1); //java learning23
+						   System.out.println(a1+b1+w+y);//5java learning//23//
+						   System.out.println(w+y+(a1+b1)); //
+						
+						  // practice 
+						   String ss = "Rafi";
+						   String rr = "Rafii";
+						   
+						   ss.equals(rr);
+						    System.out.println("value print:  " +ss.equals(rr));//t because value same
+						    
+						    System.out.println("veriable print: " + ss == rr);
+						    
 				     
 				     
 				     
